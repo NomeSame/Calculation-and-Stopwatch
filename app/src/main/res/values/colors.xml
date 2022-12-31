@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="androidBackground">#dbe2ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparentOrange"> #95ffbb33</color>
+    <color name="GreenMax">#00FF00</color>
+
+    <color name="mtrl_bottom_nav_colored_ripple_color">#deb3</color>
+    <color name="mtrl_bottom_nav_colored_item_tint">#03adc5</color>
+
+</resources>
