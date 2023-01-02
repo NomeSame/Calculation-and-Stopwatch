@@ -51,10 +51,12 @@ public class Fragment_2 extends Fragment {
 
             @Override
             public void afterTextChanged(Editable editable) {
+                String userInput = editable.toString();
+                userInput = userInput.replaceAll("(?!\\.)[^0-9.]", "");
                 userInputEinsatz = etEinsatz.getText().toString();
 //                double cache1;
                 try {
-                    cache1 = Double.parseDouble(userInputEinsatz);
+                    cache1 = Double.parseDouble(userInput);
 
                 } catch (NumberFormatException e) {
                     cache1 = 1.0;
@@ -82,9 +84,11 @@ public class Fragment_2 extends Fragment {
             @Override
             public void afterTextChanged(Editable editable) {
                 userInputLoss = etLoss.getText().toString();
+                String userInput = editable.toString();
+                userInput = userInput.replaceAll("(?!\\.)[^0-9.]", "");
 //                double cache2;
                 try {
-                    cache2 = Double.parseDouble(userInputLoss);
+                    cache2 = Double.parseDouble(userInput);
 
                 } catch (NumberFormatException e) {
                     cache2 = 1.0;
@@ -113,9 +117,11 @@ public class Fragment_2 extends Fragment {
             @Override
             public void afterTextChanged(Editable editable) {
                 userInputLeverage = etLever.getText().toString();
+                String userInput = editable.toString();
+                userInput = userInput.replaceAll("(?!\\.)[^0-9.]", "");
 //                double cache3;
                 try {
-                    cache3 = Double.parseDouble(userInputLeverage);
+                    cache3 = Double.parseDouble(userInput);
 
                 } catch (NumberFormatException e) {
                     cache3 = 1.0;

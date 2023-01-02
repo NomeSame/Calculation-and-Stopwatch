@@ -3,6 +3,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="String">Key?</string>
-    <string name="Enter_the_Number_you_want_to_be_converted">Die zu Konvertierende ZAhl einfügen: </string>
+    <string name="Enter_the_Number_you_want_to_be_converted">Die zu Konvertierende Zahl einfügen: </string>
 
 </resources>
